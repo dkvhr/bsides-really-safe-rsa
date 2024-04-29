@@ -14,7 +14,7 @@ Exemplo: `d = 123456789101112131415161718192021222324`
 
 A flag resultante seria: `HIK_718192021222324`
 
-OBS 2: Aqui no meu computador leva no máximo 2 minutos para calcular tudo. Se a sua solução leva mais tempo do que isso, talvez não esteja correta
+OBS 2: Aqui no meu computador levou em média 2 minutos para calcular tudo. Se a sua solução está levando muito mais tempo do que isso, talvez não esteja correta.
 
 # Categoria
 

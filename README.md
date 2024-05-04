@@ -14,7 +14,7 @@ Exemplo: `d = 123456789101112131415161718192021222324`
 
 A flag resultante seria: `HIK_718192021222324`
 
-OBS 2: Aqui no meu computador levou em média 2 minutos para calcular tudo. Se a sua solução está levando muito mais tempo do que isso, talvez não esteja correta.
+OBS 2: Se o seu computador está levando muito tempo para realizar os cálculos, talvez exista uma solução melhor :)
 
 # Categoria
 
@@ -43,7 +43,15 @@ Podemos calcular a raiz da equação de segundo grau `2*p^2 + p - n = 0` e achar
 
 O que pode elevar a dificuldade é o número bem grande de `p` e `q`. Escolhi números extremamente grandes para impedir fatorações.
 
-o código de solução está no arquivo solve.py
+o código de solução está no arquivo `solve.sage` ou no arquivo `solve.py`. Ambas as soluções funcionam, mas a `solve.py` é bem mais rápida e talvez seja mais fácil para rodar.
+
+Para rodar o `solve.py`, é necessário ter o `sympy`
+
+Para rodar o arquivo `solve.sage`, é necessário o sagemath, que pode ser instalado de acordo com a documentação: `https://doc.sagemath.org/html/en/installation/index.html`
+
+Também pode ser executado online em: `https://cocalc.com/`
+
+Outra alternativa é usar algum outro software que resolve equações do segundo grau. Nesse caso você só precisa colocar a equação `2*x^2 + x - n = 0` e substituir o `n` pelo valor de `n` em `n_value.py`.
 
 # Flag
 
